@@ -44,7 +44,6 @@
 </body>
 <script>
 	function makeNewDiv(){
-		/* make the div and its text */
 		let element = document.createElement("div")
         element.innerHTML = document.getElementById("inputList").value
 		element.className = "listy"
@@ -63,7 +62,7 @@ for (let item of listItems) {
         break;
     }
 }
-if (check == 9) {
+if (check == 0) {
 				var removeItem = getRandomIntInclusive(0, 9);
 				console.log(removeItem);
 
